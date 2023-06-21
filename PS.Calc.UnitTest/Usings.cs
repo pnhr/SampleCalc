@@ -1,0 +1,13 @@
+global using Microsoft.Data.Sqlite;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using Moq;
+global using PS.Calc.Api.Auth;
+global using PS.Calc.Data;
+global using PS.Calc.Data.Database;
+global using PS.Calc.Data.DbModels;
+global using PS.Calc.Data.Definitions;
+global using PS.Calc.UnitTest.TestHelpers;
+global using Xunit;
